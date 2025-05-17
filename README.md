@@ -36,20 +36,19 @@ UnaHur Anti-Social Net es una red social que permite a los usuarios compartir po
 
 ## 📁 Estructura del proyecto
 
+📁 Estructura del proyecto
 src/
-│
-├── controllers/   # Lógica de negocio por entidad
-├── db/            # Modelos Sequelize y configuración de la base de datos
+├── controllers/  # Lógica de negocio por entidad
+├── db/           # Modelos Sequelize y configuración de la base de datos
 ├── docs/          # Documentación de la API en Swagger (YAML)
 ├── middlewares/   # Validaciones, manejo de errores, etc.
 ├── routes/        # Archivos de rutas organizados por entidad
 ├── schemas/       # Esquemas de validación y DTOs
 ├── main.js        # Punto de entrada de la app Express
-│
 ├── assets/        # Imágenes o recursos gráficos para el proyecto
 ├── README.md      # Documentación principal del proyecto
 ├── package.json   # Dependencias y scripts del proyecto
-├── .gitignore     # Archivos ignorados por git
+└── .gitignore     # Archivos ignorados por git
 
 ## 📡 Endpoints 
 A continuación se detallan los principales endpoints organizados por entidad:
